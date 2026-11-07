@@ -1,0 +1,20 @@
+# LLM ve ajan
+anthropic==1.13.0
+langchain-anthropic==1.7.5
+langchain-core==1.6.9
+langgraph==1.2.14
+pydantic==2.14.0
+python-dotenv==1.2.4
+PyYAML==6.0.3
+# Arama (hackathon'daki sürümler). Intel Mac'te torch 2.2.2'den yenisi yok, o sürüm numpy 2 ile çalışmıyor
+torch==2.2.2; sys_platform == "darwin" and platform_machine == "x86_64"
+numpy<2; sys_platform == "darwin" and platform_machine == "x86_64"
+pyarrow==17.0.0; sys_platform == "darwin" and platform_machine == "x86_64"
+chromadb==1.5.9
+sentence-transformers==5.1.2
+pypdf==6.20.0
+# Arayüz, test, MCP
+streamlit==1.40.0
+fpdf2==2.8.3
+pytest==9.1.1
+mcp==1.9.0

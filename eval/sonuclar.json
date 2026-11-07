@@ -1,0 +1,732 @@
+[
+  {
+    "id": "mehmet_sel_park",
+    "etiket_ok": true,
+    "etiket": "kapsamda",
+    "beklenen_etiket": "kapsamda",
+    "risk_ok": true,
+    "risk": [
+      "SEL_SU_BASKINI"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-03-01 – 2027-03-01) içinde.",
+      "[uygun] Teminat: SEL_SU_BASKINI: 'Sel ve su baskını (GŞ A.4 4.5)' poliçenin teminat listesinde var.",
+      "[bilgi] Muafiyet: Poliçede 5.000 TL muafiyet var; hasar tutarından düşülür."
+    ],
+    "gerekce": "Ön değerlendirmeye göre olay kapsamda görünüyor ve poliçe dönemi içinde gerçekleşmiş görünüyor [GS_A.8_giris]. Sel veya su baskını nedeniyle zarar görmesi durumu BUK sel ve su baskını klozunda düzenlenmiş ve poliçenin teminat listesinde yer almış görünüyor [BUK_sel-ve-su-baskini-klozu_1]. Genel Şartlar A.4 maddesinde sel ve su baskını ile meydana gelen zararlar da ifade edilmekte olup, bu maddenin teminat dışı hâller arasında sayılıp sayılmadığı uzman değerlendirmesi gerektirir [GS_A.4_4.5]. Poliçe 5.000 TL muafiyetli görünüyor ve hasar tutarından bu tutar düşülecek gibi duruyor [BUK_muafiyet-klozu_1]. Araç park hâlinde olduğu için sürücüye ait belgeler istenmemiş, aracın hasarlı hâline ilişkin fotoğraflar ve ruhsat fotokopisi öne çıkıyor [BUK_hasar-aninda-gerekli-belgeler-1-kasko_1]. Motor bölmesindeki su hasarının onarım masrafının araç değerini aşıp aşmadığı, tam hasar hükümlerinin uygulanıp uygulanmayacağı eksper değerlendirmesiyle netleşmelidir [GS_B.3_3.3.2.2_1].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['SEL_SU_BASKINI'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 2, 'sorun': 0, 'belirsiz': 0, 'bilgi': 1}, 0 soru → KAPSAMDA GÖRÜNÜYOR",
+      "ara: 4 sorgu → 19 parça (dayanak +1, evrak +1)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 22.2
+  },
+  {
+    "id": "mehmet_sel_tarihsiz",
+    "etiket_ok": true,
+    "etiket": "ek_bilgi",
+    "beklenen_etiket": "ek_bilgi",
+    "risk_ok": true,
+    "risk": [
+      "SEL_SU_BASKINI"
+    ],
+    "atif_beklenen": 0,
+    "atif_bulunan": 0,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [
+      "Olay hangi tarihte ve saat kaçta meydana geldi?"
+    ],
+    "kontroller": [
+      "[belirsiz] Poliçe dönemi: Olay tarihi bilinmiyor; poliçe dönemi 2026-03-01 – 2027-03-01.",
+      "[uygun] Teminat: SEL_SU_BASKINI: 'Sel ve su baskını (GŞ A.4 4.5)' poliçenin teminat listesinde var.",
+      "[bilgi] Muafiyet: Poliçede 5.000 TL muafiyet var; hasar tutarından düşülür."
+    ],
+    "gerekce": "Bildirime göre sağanak yağmur sırasında park halindeki aracın motor bölmesine kadar su dolmuş; sel ve su baskını nedeniyle oluşan zararlar için özel şart teminatı tanımlıyor görünüyor [BUK_sel-ve-su-baskini-klozu_1]. Genel Şartların A.4 bölümünde de sel ve su baskını ile meydana gelen zararlar sayılmış; özel şartın bu konudaki düzenlemesiyle birlikte uzman değerlendirmesi gerekir [GS_A.4_4.5]. Poliçede 5.000 TL muafiyet bulunduğundan tespit edilecek hasar tutarından bu tutar düşülecek görünüyor [BUK_muafiyet-klozu_1]. Olay tarihi ve saati bilinmediği için poliçe dönemi içinde kalıp kalmadığı netleşmemiş; Genel Şartlara göre sigorta öğleyin 12.00'de başlıyor ve sona eriyor [GS_A.8_giris]. Araç park halinde olduğu için sürücüye ait belgeler bu aşamada istenmedi, yalnızca araca ilişkin belgeler listelendi [BUK_hasar-aninda-gerekli-belgeler-1-kasko_1].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['SEL_SU_BASKINI'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 1, 'sorun': 0, 'belirsiz': 1, 'bilgi': 1}, 1 soru → EK BİLGİ GEREKLİ",
+      "ara: 4 sorgu → 19 parça (dayanak +1, evrak +1)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 17.4
+  },
+  {
+    "id": "mehmet_deprem",
+    "etiket_ok": true,
+    "etiket": "kapsam_disi",
+    "beklenen_etiket": "kapsam_disi",
+    "risk_ok": true,
+    "risk": [
+      "DEPREM"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-03-01 – 2027-03-01) içinde.",
+      "[sorun] Teminat: DEPREM: 'Deprem (GŞ A.4 4.4)' poliçenin teminat listesinde YOK (paketler: Benim Uygun Kaskom; tür: Dar Kasko).",
+      "[bilgi] Muafiyet: Poliçede 5.000 TL muafiyet var; hasar tutarından düşülür."
+    ],
+    "gerekce": "Bildirilen olay, deprem sırasında park hâlindeki aracın üzerine bina duvarının çökmesi olarak görünüyor. Deprem, Genel Şartların A.4 4.4 maddesinde sayılan zararlar arasında yer alıyor, ancak poliçenin teminat listesinde yer almadığı görülüyor, bu nedenle teminat dışı hâller arasında sayılıyor görünüyor [GS_A.4_4.4]. Genel Şartlarda deprem gibi hâllerin ancak ek sözleşmeyle teminat altına alınabileceği belirtiliyor [GS_A.4_giris]. Poliçe 5.000 TL muafiyetli düzenlenmiş olduğundan, bir teminat değerlendirmesi yapılması hâlinde hasar tutarından bu tutarın düşülmesi söz konusu görünüyor [BUK_muafiyet-klozu_1]. Nihai değerlendirme için hasar uzmanı incelemesi gerekir.",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['DEPREM'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 1, 'sorun': 1, 'belirsiz': 0, 'bilgi': 1}, 0 soru → KAPSAM DIŞI GÖRÜNÜYOR",
+      "ara: 4 sorgu → 15 parça (dayanak +2, evrak +1)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 18.9
+  },
+  {
+    "id": "ayse_deprem",
+    "etiket_ok": true,
+    "etiket": "kapsamda",
+    "beklenen_etiket": "kapsamda",
+    "risk_ok": true,
+    "risk": [
+      "DEPREM"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-02-01 – 2027-02-01) içinde.",
+      "[uygun] Teminat: DEPREM: 'Deprem (GŞ A.4 4.4)' poliçenin teminat listesinde var."
+    ],
+    "gerekce": "Olay tarihinin poliçe dönemi içinde olduğu ve poliçede deprem teminatının yer aldığı görünüyor; deprem, Genel Şartlarda sayılan zararlar arasında bulunuyor [GS_A.8_giris] [GS_A.4_4.4]. Deprem teminatı klozunda, sigortalı aracın deprem nedeniyle zarar görmesi durumunda %100 sigorta bedelinin %100'ünün sigortacı tarafından karşılanacağı ifade ediliyor ve muafiyet uygulanması konusunda taraflar anlaşabiliyor [BK_deprem-teminati-klozu_1]. Bildirilen olayda araç park hâlinde olduğu için sürüşe bağlı bir değerlendirme bu aşamada gerekmiyor görünüyor. Hasarın kısmi olması hâlinde rayiç bedel eksilmesine ilişkin hasar ikame zeyli istisnası da ilgili olabilir [BK_kismi-hasarlarda-hasar-ikame-zeyli-istisnasi_1]. Hasar tutarı, muafiyet ve ilgili limitlerin nihai durumu uzman değerlendirmesi gerektirir.",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['DEPREM'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 2, 'sorun': 0, 'belirsiz': 0, 'bilgi': 0}, 0 soru → KAPSAMDA GÖRÜNÜYOR",
+      "ara: 4 sorgu → 13 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 19.5
+  },
+  {
+    "id": "mehmet_yangin",
+    "etiket_ok": true,
+    "etiket": "kapsam_disi",
+    "beklenen_etiket": "kapsam_disi",
+    "risk_ok": true,
+    "risk": [
+      "YANMA"
+    ],
+    "atif_beklenen": 0,
+    "atif_bulunan": 0,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-03-01 – 2027-03-01) içinde.",
+      "[sorun] Teminat: YANMA: 'Yangın (GŞ A.1 d)' poliçenin teminat listesinde YOK (paketler: Benim Uygun Kaskom; tür: Dar Kasko).",
+      "[bilgi] Muafiyet: Poliçede 5.000 TL muafiyet var; hasar tutarından düşülür."
+    ],
+    "gerekce": "Bildirime göre park halindeki sigortalı araç gece motor kısmından tutuşarak yanmıştır ve olayın poliçe dönemi içinde gerçekleştiği görünüyor [GS_A.8_giris]. Genel Şartlar A.1 d bendinde aracın yanması risk olarak sayılmakla birlikte [GS_A.1_giris_1], poliçenin Dar Kasko ürününde bu yangın teminatı teminat listesinde yer almıyor görünmektedir [GS_A.1_giris_1]. Dar Kasko yalnızca teminat gruplarından bir kısmı için verilen üründür [GS_A.1_giris_1]. Poliçede 5.000 TL muafiyet bulunduğundan hasar tutarından bu tutar düşülecek görünmektedir [BUK_muafiyet-klozu_1]. Araç park halindeyken hasar gördüğü için sürücüye ait belgeler istenmemiştir; ruhsat ve hasarlı araç fotoğrafları gerekli görünmektedir [BUK_hasar-aninda-gerekli-belgeler-1-kasko_1]. Teminat kapsamı ve hasarın nedeni konusunda nihai değerlendirme için uzman değerlendirmesi gerekir [GS_A.1_giris_1].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['YANMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 1, 'sorun': 1, 'belirsiz': 0, 'bilgi': 1}, 0 soru → KAPSAM DIŞI GÖRÜNÜYOR",
+      "ara: 4 sorgu → 22 parça (dayanak +2, evrak +1)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 15.7
+  },
+  {
+    "id": "zeynep_calinma",
+    "etiket_ok": true,
+    "etiket": "kapsam_disi",
+    "beklenen_etiket": "kapsam_disi",
+    "risk_ok": true,
+    "risk": [
+      "CALINMA"
+    ],
+    "atif_beklenen": 0,
+    "atif_bulunan": 0,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-05-15 – 2027-05-15) içinde.",
+      "[sorun] Teminat: CALINMA: 'Aracın veya parçalarının çalınması, çalınmaya teşebbüs (GŞ A.1 e)' poliçenin teminat listesinde YOK (paketler: Temel Koruma; tür: Dar Kasko).",
+      "[bilgi] Muafiyet: Poliçede 2.500 TL muafiyet var; hasar tutarından düşülür."
+    ],
+    "gerekce": "Bildirime göre sigortalının evin önüne park ettiği araç dün gece çalınmış ve olay karakola bildirilmiştir; bildirim yapılması genel şartlarda öngörülen yükümlülüğe uygun görünüyor [GS_B.1_1.3]. Poliçenin Temel Koruma paketi ve Dar Kasko türünde çalınma teminatı teminat listesinde yer almıyor görünüyor; buna karşın özel şart metninde araç çalınmasına ilişkin bir güvence ifadesi bulunuyor [BK_aracin-calinmasi-calinmaya-tesebbus-ed-ilmesi_1], bu çelişki uzman değerlendirmesi gerektirir. Araç anahtarı ele geçirme klozunda aranan koşullar (zor kullanma veya gasp, kapalı mekâna kırma, zorlama ile girme) bildirimde yer almıyor, bu nedenle klozun uygulanabilirliği de belirsiz [BK_arac-anahtarinin-ele-gecirilmesi-nedeniyle-aracin_1]. Olay tarihi poliçe dönemi içinde görünüyor [GS_A.8_giris]. Hasar tutarı belirlendiğinde 2.500 TL muafiyet tutarı hasar tutarından düşülür [BK_muafiyet-secimi-ozel-sartlari_2]; nihai değerlendirme hasar uzmanı tarafından yapılmalıdır.",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CALINMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 1, 'sorun': 1, 'belirsiz': 0, 'bilgi': 1}, 0 soru → KAPSAM DIŞI GÖRÜNÜYOR",
+      "ara: 4 sorgu → 12 parça (dayanak +2, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 23.0
+  },
+  {
+    "id": "ayse_anahtar",
+    "etiket_ok": true,
+    "etiket": "kapsamda",
+    "beklenen_etiket": "kapsamda",
+    "risk_ok": true,
+    "risk": [
+      "CALINMA",
+      "ANAHTAR_ELE_GECIRILMESI"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-03 poliçe dönemi (2026-02-01 – 2027-02-01) içinde.",
+      "[uygun] Teminat: CALINMA: 'Aracın veya parçalarının çalınması, çalınmaya teşebbüs (GŞ A.1 e)' poliçenin teminat listesinde var.",
+      "[uygun] Teminat: ANAHTAR_ELE_GECIRILMESI: 'Araç anahtarının ele geçirilmesi nedeniyle çalınma (GŞ A.4 4.11)' poliçenin teminat listesinde var."
+    ],
+    "gerekce": "Ön değerlendirmede olay, araç anahtarının ele geçirilmesi yoluyla aracın çalınması olarak ele alınmış ve poliçe dönemi ile ilgili teminatların uygun göründüğü not edilmiştir [GS_A.4_4.11] [GS_A.8_giris]. Benim Kaskom anahtar kloz metni, anahtarın zor kullanma veya gasp yoluyla ya da belirtilen yöntemlerle kapalı mekâna girilerek ele geçirilmesi hallerini aramakta olup, ihbarda bu hallerden hangisinin gerçekleştiği belirtilmemiştir [BK_arac-anahtarinin-ele-gecirilmesi-nedeniyle-aracin_1]. Anahtarın kafede masada unutulmuş olması, kloz istisnaları arasındaki araç anahtarının üzerinde unutulması durumuna benzer görünse de bu istisna aracın çalışır vaziyette olduğu veya durduğu sırada geçerli olduğundan olayın hangi kapsamda değerlendirileceği uzman değerlendirmesi gerektirir [BK_arac-anahtarinin-ele-gecirilmesi-nedeniyle-aracin_1]. Otopark görevlisine veya vale görevlisine teslim edilmiş bir anahtar söz konusu olmadığından, otopark ve vale kloz metni bu olaya doğrudan uygulanmıyor görünmektedir [BK_arac-anahtarinin-ele-gecirilmesi-nedeniyle-aracin_2]. Olayın aynı gün polise bildirilmiş olması, yetkili makamlara bildirim yükümlülüğü açısından önemli görünmekte olup, anahtar kopyalama masrafları için kilit klozunda olay başına ve yıllık 2.000 TL limit bulunmaktadır [GS_B.1_1.3] [BK_aracin-kilit-mekanizmasinin-degistirilmesi-klozu_1].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CALINMA', 'ANAHTAR_ELE_GECIRILMESI'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 3, 'sorun': 0, 'belirsiz': 0, 'bilgi': 0}, 0 soru → KAPSAMDA GÖRÜNÜYOR",
+      "ara: 5 sorgu → 15 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 25.3
+  },
+  {
+    "id": "ayse_kotu_niyet",
+    "etiket_ok": true,
+    "etiket": "kapsamda",
+    "beklenen_etiket": "kapsamda",
+    "risk_ok": true,
+    "risk": [
+      "UCUNCU_KISI_KOTU_NIYET"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-02-01 – 2027-02-01) içinde.",
+      "[uygun] Teminat: UCUNCU_KISI_KOTU_NIYET: 'Üçüncü kişilerin kötü niyetli hareketleri (GŞ A.1 c)' poliçenin teminat listesinde var."
+    ],
+    "gerekce": "Ön değerlendirmeye göre olay, poliçe dönemi içinde (2026-02-01 – 2027-02-01) meydana gelmiş görünüyor [GS_A.8_giris]. İhbar, park halindeki aracın üçüncü kişilerce anahtarla çizildiğini ve yan aynasının kırıldığını bildiriyor; teminat listesinde yer alan üçüncü kişilerin kötü niyetli hareketleri teminatı bu olayla ilgili görünüyor [BK_ucuncu-kisilerin-kotu-niyetli-hareketleri-teminati_1]. Genel Şartlarda, sigortalının veya birlikte yaşadığı kişilerin kasten verdiği zararlar teminat dışı hâller arasında sayılıyor; ihbarda failin kim olduğu belirtilmediğinden bu ayrımın uzman değerlendirmesiyle netleştirilmesi gerekir [GS_A.5_5.6]. Araç anahtarının ele geçirilmesi klozu aracın çalınmasına ilişkin olduğu için çizik ve ayna kırılması hasarına doğrudan uygulanıp uygulanmayacağı uzman tarafından değerlendirilmelidir [BK_arac-anahtarinin-ele-gecirilmesi-nedeniyle-aracin_1]. Genel Şartlara göre tanıkların kimlik ve adres bilgileri ile görgü tutanağı gerekebilir; ihbarda tanık bilgisi bulunmadığından acentenin bu bilgiyi ayrıca teyit etmesi faydalı olur [GS_B.1_1.7].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['UCUNCU_KISI_KOTU_NIYET'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 2, 'sorun': 0, 'belirsiz': 0, 'bilgi': 0}, 0 soru → KAPSAMDA GÖRÜNÜYOR",
+      "ara: 4 sorgu → 16 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 22.6
+  },
+  {
+    "id": "burak_dolu",
+    "etiket_ok": true,
+    "etiket": "kapsam_disi",
+    "beklenen_etiket": "kapsam_disi",
+    "risk_ok": true,
+    "risk": [
+      "DIGER_DOGAL_AFET"
+    ],
+    "atif_beklenen": 0,
+    "atif_bulunan": 0,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-04-01 – 2027-04-01) içinde.",
+      "[sorun] Teminat: DIGER_DOGAL_AFET: 'Toprak kayması, fırtına, dolu, yıldırım, yanardağ (GŞ A.4 4.4)' poliçenin teminat listesinde YOK (paketler: Temel Koruma, Hırsızlık ve Anahtar; tür: Kasko)."
+    ],
+    "gerekce": "Bildirilen olay, park halindeki araçta dolu yağışı sonucu kaput ve tavanda göçük oluşması olarak görünüyor; Genel Şartlar'da dolu, zarar türleri arasında sayılıyor [GS_A.4_4.4]. Sigortalı aracın dolu nedeniyle zarar görmesini düzenleyen Diğer Doğal Afetler Klozu bulunsa da, poliçenin teminat listesinde bu teminat yer almıyor görünüyor [BK_diger-dogal-afetler-klozu_1]. Araç olay anında sürülmediği bildirildiği için sürücüye ait belgelerin bu değerlendirmede istenmesi uygun görünmüyor [BK_hasar-aninda-gerekli-belgeler-1-kasko_1]. Boyasız kaporta göçük düzeltme hizmeti 5 cm çapa kadar boyanın zarar görmediği göçükler için tanımlanmış olup, hasarın bu kapsama girip girmediği uzman değerlendirmesi gerektirir [BK_mini-onarim-hizmeti-ozel-sartlari_2]. Bu nedenlerle poliçenin teminat kapsamına ilişkin nihai değerlendirme hasar uzmanına aittir.",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['DIGER_DOGAL_AFET'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 1, 'sorun': 1, 'belirsiz': 0, 'bilgi': 0}, 0 soru → KAPSAM DIŞI GÖRÜNÜYOR",
+      "ara: 4 sorgu → 18 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 18.5
+  },
+  {
+    "id": "ayse_dolu",
+    "etiket_ok": true,
+    "etiket": "kapsamda",
+    "beklenen_etiket": "kapsamda",
+    "risk_ok": true,
+    "risk": [
+      "DIGER_DOGAL_AFET"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-02-01 – 2027-02-01) içinde.",
+      "[uygun] Teminat: DIGER_DOGAL_AFET: 'Toprak kayması, fırtına, dolu, yıldırım, yanardağ (GŞ A.4 4.4)' poliçenin teminat listesinde var."
+    ],
+    "gerekce": "Ihbarda park halindeki aracın kaput ve tavanında dolu nedeniyle göçük oluştuğu bildiriliyor, araç olay anında sürülmüyordu. Poliçe dönemi kontrolünde olay tarihinin poliçe süresi içinde olduğu görünüyor [GS_A.8_giris]. Dolunun teminat listesinde yer aldığı ve Diğer Doğal Afetler Klozu'nda sigortalı aracın dolu nedeniyle zarar görmesi durumunda sigortacı tarafından karşılanacağı belirtiliyor; muafiyet konusunda taraflar anlaşabilir [BK_diger-dogal-afetler-klozu_1]. Park hâlinde meydana gelen bu hasarın, taşıma sırasında oluşan zararlara ilişkin teminat dışı hâller arasında sayılan durumla ilgili olmadığı görünüyor [GS_A.5_5.7]. Göçüklerin onarımında Boyasız Kaporta Göçük Düzeltme hizmetinin ölçü koşullarına bağlı olarak Mini Onarım kapsamı değerlendirilebilir; boya hasarı varsa kapsam uzman değerlendirmesi gerektirir [BK_mini-onarim-hizmeti-ozel-sartlari_2]. Dosyada istenecek belgeler arasında ruhsat, hasarlı araç fotoğrafları ve trafik-tescil belgeleri bulunuyor; nihai değerlendirme için hasar uzmanı incelemesi gerekir [BK_hasar-aninda-gerekli-belgeler-1-kasko_1].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['DIGER_DOGAL_AFET'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 2, 'sorun': 0, 'belirsiz': 0, 'bilgi': 0}, 0 soru → KAPSAMDA GÖRÜNÜYOR",
+      "ara: 4 sorgu → 16 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 21.9
+  },
+  {
+    "id": "ali_lpg",
+    "etiket_ok": true,
+    "etiket": "uzman",
+    "beklenen_etiket": "uzman",
+    "risk_ok": true,
+    "risk": [
+      "CARPISMA"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-01-10 – 2027-01-10) içinde.",
+      "[uygun] Teminat: CARPISMA: 'Çarpışma / sabit veya duran bir cisim ile çarpışma (GŞ A.1 a-b)' poliçenin teminat listesinde var.",
+      "[uygun] Yetkili sürücü: Poliçede sürücü kısıtı yok.",
+      "[sorun] LPG: Araç LPG'li fakat poliçede LPG beyanı/ek primi yok. Kloza göre tazminat, alınan prim ile alınması gereken prim arasındaki ORANA göre ödenir (orantılı tazminat)."
+    ],
+    "gerekce": "Olay, sigortalının kullandığı aracın kırmızı ışıkta beklerken arkadan çarpılması olarak anlatılıyor ve poliçe döneminin içinde görünüyor; bu olay çarpışma teminatının kapsamına girebilecek nitelikte görünüyor, ancak kesin değerlendirme uzman incelemesiyle yapılmalıdır [BUK_carpisma-sabit-veya-duran-bir-cisim_1] [GS_A.1_giris_1]. Araç LPG'li olmasına rağmen poliçede LPG beyanı ve ek primi bulunmadığı için hasar tazminatının tahakkuk edilen prim ile olması gereken prim arasındaki oranda ödenebileceği görünüyor; bu nedenle orantılı tazminat ihtimali uzman değerlendirmesinde ele alınmalıdır [BUK_lpg-ile-calisan-araclar-klozu_1]. Muafiyet tutarı 5.000 TL olarak poliçede yer aldığı için hasar bedelinden bu tutar düşülebilir; muafiyetin uygulanmayacağı koşullar (tutanak ve kusur durumu) da uzman tarafından incelenmelidir [BUK_muafiyet-klozu_1]. Sigortalının aracı sürüyor olması nedeniyle sürücüye ait belgeler de istenebilecek nitelikte görünüyor [BUK_hasar-aninda-gerekli-belgeler-1-kasko_1]. Olayın üçüncü kişinin kusurlu fiiline dayanması durumunda tanık ve görgü tutanağı bilgileri de gerekebilir [GS_B.1_1.7].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CARPISMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 3, 'sorun': 1, 'belirsiz': 0, 'bilgi': 0}, 0 soru → UZMAN İNCELEMESİ GEREKLİ",
+      "ara: 4 sorgu → 14 parça (dayanak +2, evrak +1)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 11.6
+  },
+  {
+    "id": "elif_suresi_dolmus",
+    "etiket_ok": true,
+    "etiket": "kapsam_disi",
+    "beklenen_etiket": "kapsam_disi",
+    "risk_ok": true,
+    "risk": [
+      "CARPISMA"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [
+      "Sürücünün olay anında alkol veya uyuşturucu madde etkisinde olup olmadığı biliniyor mu?",
+      "Sürücü, kaza tutanağı tutulmadan veya polis gelmeden olay yerinden ayrıldı mı?",
+      "Olay polise/jandarmaya bildirildi mi veya kaza tespit tutanağı tutuldu mu?"
+    ],
+    "kontroller": [
+      "[sorun] Poliçe dönemi: Olay tarihi 2026-11-03 poliçe dönemi (2025-10-15 – 2026-10-15) DIŞINDA.",
+      "[uygun] Teminat: CARPISMA: 'Çarpışma / sabit veya duran bir cisim ile çarpışma (GŞ A.1 a-b)' poliçenin teminat listesinde var.",
+      "[uygun] Yetkili sürücü: Poliçede sürücü kısıtı yok."
+    ],
+    "gerekce": "İhbarda 3 Kasım tarihinde AVM otoparkından çıkarken aracın direğe sürtüldüğü ve sağ çamurluğun ezildiği bildiriliyor. Kod kontrolüne göre olay tarihi poliçe dönemi dışında görünüyor; poliçenin başlama ve sona erme tarihlerinin nasıl uygulanacağı uzman değerlendirmesi gerektiriyor. [GS_A.8_giris] Çarpışma teminatı, aracın sabit veya duran bir cisimle çarpışmasını teminat altına alıyor ve olay bu teminat kapsamında değerlendirilebilir görünüyor. [BK_optimum-paket-kapsaminda-sunulan-teminatlara-ait_1] Poliçede sürücü kısıtı görünmüyor ve araç olay anında sürüldüğü için hasar anında istenebilecek belgeler arasında kaza tespit tutanağı ve alkol raporu yer alıyor. [BK_hasar-aninda-gerekli-belgeler-1-kasko_1] Nihai değerlendirme ve tazminat sonucu hasar uzmanının incelemesine bağlıdır.",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CARPISMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 2, 'sorun': 1, 'belirsiz': 0, 'bilgi': 0}, 3 soru → KAPSAM DIŞI GÖRÜNÜYOR",
+      "ara: 4 sorgu → 16 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 16.7
+  },
+  {
+    "id": "elif_bitis_gunu",
+    "etiket_ok": true,
+    "etiket": "ek_bilgi",
+    "beklenen_etiket": "ek_bilgi",
+    "risk_ok": true,
+    "risk": [
+      "CARPISMA"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [
+      "Olay saat kaçta meydana geldi (öğle 12.00'den önce mi sonra mı)?",
+      "Sürücünün olay anında alkol veya uyuşturucu madde etkisinde olup olmadığı biliniyor mu?",
+      "Sürücü, kaza tutanağı tutulmadan veya polis gelmeden olay yerinden ayrıldı mı?",
+      "Olay polise/jandarmaya bildirildi mi veya kaza tespit tutanağı tutuldu mu?"
+    ],
+    "kontroller": [
+      "[belirsiz] Poliçe dönemi: Olay bitiş gününde (2026-10-15). Sigorta bu günde öğleyin 12.00'de başlar/biter; saat belirleyici.",
+      "[uygun] Teminat: CARPISMA: 'Çarpışma / sabit veya duran bir cisim ile çarpışma (GŞ A.1 a-b)' poliçenin teminat listesinde var.",
+      "[uygun] Yetkili sürücü: Poliçede sürücü kısıtı yok."
+    ],
+    "gerekce": "Olay, aracın sabit bir cisme çarpması niteliğinde görünüyor ve bu durum çarpışma teminatı kapsamında değerlendirilebilir görünüyor [BK_optimum-paket-kapsaminda-sunulan-teminatlara-ait_1]. Poliçe dönemi bitiş gününde öğleyin 12.00'de sona erdiğinden olayın saati belirleyici görünüyor, bu nedenle saatin acentece teyit edilmesi gerekir [GS_A.8_giris]. Araç olay anında sürüldüğü bildirildiğinden sürücüye ilişkin belgeler ve sürücünün alkol durumu ile tutanak bilgisi uzman değerlendirmesi için önemlidir [BK_hasar-aninda-gerekli-belgeler-1-kasko_1]. Teminat listesinde yer alan çarpışma riski, karayolunda kullanılan araçla oluşan çarpışmayla ilişkilendirilmektedir ve nihai değerlendirme hasar uzmanınca yapılmalıdır [GS_A.1_giris_1].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CARPISMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 2, 'sorun': 0, 'belirsiz': 1, 'bilgi': 0}, 4 soru → EK BİLGİ GEREKLİ",
+      "ara: 4 sorgu → 20 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 21.7
+  },
+  {
+    "id": "burak_kardes",
+    "etiket_ok": true,
+    "etiket": "uzman",
+    "beklenen_etiket": "uzman",
+    "risk_ok": true,
+    "risk": [
+      "CARPISMA"
+    ],
+    "atif_beklenen": 0,
+    "atif_bulunan": 0,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [
+      "Aracı kullanan kişinin (kardeşi) poliçede yetkili sürücü olarak tanımlı olup olmadığını teyit eder misiniz?",
+      "Sürücünün olay anında alkol veya uyuşturucu madde etkisinde olup olmadığı biliniyor mu?",
+      "Sürücü, kaza tutanağı tutulmadan veya polis gelmeden olay yerinden ayrıldı mı?",
+      "Olay anında aracı kullanan kişinin geçerli bir sürücü belgesi (ehliyet) var mıydı?",
+      "Olay polise/jandarmaya bildirildi mi veya kaza tespit tutanağı tutuldu mu?"
+    ],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-04-01 – 2027-04-01) içinde.",
+      "[uygun] Teminat: CARPISMA: 'Çarpışma / sabit veya duran bir cisim ile çarpışma (GŞ A.1 a-b)' poliçenin teminat listesinde var.",
+      "[sorun] Yetkili sürücü: Sürücü 'kardeşi' görünüyor; poliçe kısıtı: 'Yalnız sigortalı ve eşi'."
+    ],
+    "gerekce": "Olayın poliçe dönemi içinde kaldığı ve çarpışma teminatının poliçenin teminat listesinde yer aldığı görünüyor; bu teminat karayolunda kullanılan motorlu araçlarla çarpışmayı ve sabit veya hareketli bir cisme çarpmayı kapsamaktadır [BK_optimum-paket-kapsaminda-sunulan-teminatlara-ait_1] [GS_A.1_giris_1]. Aracın kardeşi tarafından kullanıldığı bildirildiğinden, poliçede yalnız sigortalı ve eşinin yetkili sürücü olduğu kısıtı sürücü açısından değerlendirilmelidir; bu nokta uzman incelemesi gerektirmektedir. Ön tampon hasarının plastik tampon onarımı kapsamında mini onarım hizmetiyle ele alınabileceği görünüyor, ancak bu hizmet için Generali Sigorta Mini Onarım Anlaşmalı (ALC) Servislerinde hizmet alınması gerekmektedir [BK_mini-onarim-hizmeti-ozel-sartlari_1] [BK_mini-onarim-hizmeti-ozel-sartlari_3]. Araç olay anında sürüldüğü için kaza tespit belgeleri ile sürücüye ait evraklar talep edilebilir [BK_hasar-aninda-gerekli-belgeler-1-kasko_1]. Nihai teminat kapsamı ve tazminat değerlendirmesi hasar uzmanının incelemesine bırakılmıştır.",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CARPISMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 2, 'sorun': 1, 'belirsiz': 0, 'bilgi': 0}, 5 soru → UZMAN İNCELEMESİ GEREKLİ",
+      "ara: 4 sorgu → 19 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 22.1
+  },
+  {
+    "id": "burak_esi",
+    "etiket_ok": true,
+    "etiket": "kapsamda",
+    "beklenen_etiket": "kapsamda",
+    "risk_ok": true,
+    "risk": [
+      "CARPISMA"
+    ],
+    "atif_beklenen": 0,
+    "atif_bulunan": 0,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-04-01 – 2027-04-01) içinde.",
+      "[uygun] Teminat: CARPISMA: 'Çarpışma / sabit veya duran bir cisim ile çarpışma (GŞ A.1 a-b)' poliçenin teminat listesinde var.",
+      "[uygun] Yetkili sürücü: Sürücü sigortalının eşi; kısıt: 'Yalnız sigortalı ve eşi'."
+    ],
+    "gerekce": "Poliçe dönemi kontrolü olayın poliçe süresi içinde gerçekleştiğini gösteriyor görünüyor [GS_A.8_giris]. Aracın arka tamponunun duvara sürtünerek çizilmesi, teminat listesinde yer alan çarpışma niteliğinde bir olay olarak değerlendirilebilir görünüyor [GS_A.1_giris_1]. Ancak çarpmanın sigortalının veya aracı kullananın iradesi dışında gerçekleşip gerçekleşmediği park manevrası bağlamında uzman değerlendirmesi gerektiriyor [BK_optimum-paket-kapsaminda-sunulan-teminatlara-ait_1]. Ayrıca poliçe, ayrıntılı belirtilen teminatlar dışında meydana gelen zararları teminat dışı hâller arasında sayıyor görünüyor [BK_kasko-temel-koruma-paketi-teminatlari-kapsam_1]. Sürücünün sigortalının eşi olması yetkili sürücü kısıtı açısından uygun görünüyor, ancak tutanak ve belgelerin uzman tarafından incelenmesi gerekir [BK_hasar-aninda-gerekli-belgeler-1-kasko_1].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CARPISMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 3, 'sorun': 0, 'belirsiz': 0, 'bilgi': 0}, 0 soru → KAPSAMDA GÖRÜNÜYOR",
+      "ara: 4 sorgu → 18 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 27.2
+  },
+  {
+    "id": "ayse_alkol_terk",
+    "etiket_ok": true,
+    "etiket": "uzman",
+    "beklenen_etiket": "uzman",
+    "risk_ok": true,
+    "risk": [
+      "CARPISMA"
+    ],
+    "atif_beklenen": 2,
+    "atif_bulunan": 2,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [
+      "Olay yerinden ayrılmanın zorunlu bir nedeni (sağlık, can güvenliği) var mıydı?",
+      "Olay polise/jandarmaya bildirildi mi veya kaza tespit tutanağı tutuldu mu?"
+    ],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-07 poliçe dönemi (2026-02-01 – 2027-02-01) içinde.",
+      "[uygun] Teminat: CARPISMA: 'Çarpışma / sabit veya duran bir cisim ile çarpışma (GŞ A.1 a-b)' poliçenin teminat listesinde var.",
+      "[uygun] Yetkili sürücü: Poliçede sürücü kısıtı yok.",
+      "[sorun] İstisna: alkol/madde: İhbarda alkol/madde etkisi işareti var: \"arkadaşlarla içtikten sonra\". Genel Şartlar'da yasal sınırın üzerinde alkollü sürüş teminat dışı hâller arasında.",
+      "[sorun] İstisna: kaza yerini terk: İhbarda olay yerinden ayrılma işareti var: \"polisi beklemeden eve gittim\". Zorunlu hâller (sağlık, can güvenliği) hariç teminat dışı hâller arasında."
+    ],
+    "gerekce": "Ön değerlendirmede olay, poliçe dönemi ve çarpışma teminatı açısından uyumlu görünüyor; poliçede yetkili sürücü kısıtı da bulunmuyor [GS_A.8_giris] [BK_optimum-paket-kapsaminda-sunulan-teminatlara-ait_1]. Ancak ihbardaki arkadaşlarla içtikten sonra ifadesi, yasal sınırın üzerinde alkollü kullanımın Genel Şartlarda teminat dışı hâller arasında sayıldığını akla getiriyor, bu nedenle konu uzman değerlendirmesi gerektiriyor [GS_A.5_5.5]. Ayrıca polisi beklemeden eve gittim ifadesi, kaza yerinden ayrılmanın teminat dışı hâller arasında sayıldığını gösteriyor; zorunlu bir nedenin (sağlık veya can güvenliği) bulunup bulunmadığı açıklığa kavuşturulmalı [GS_A.5_5.10]. Olayın polis veya jandarmaya bildirilip bildirilmediği ve tutanak tutulup tutulmadığı acentenin yanıtına göre değerlendirilmeli [BK_hasar-aninda-gerekli-belgeler-1-kasko_1]. Nihai değerlendirme hasar uzmanı tarafından yapılmalıdır.",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CARPISMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 3, 'sorun': 2, 'belirsiz': 0, 'bilgi': 0}, 2 soru → UZMAN İNCELEMESİ GEREKLİ",
+      "ara: 4 sorgu → 22 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 21.6
+  },
+  {
+    "id": "ayse_ehliyetsiz",
+    "etiket_ok": true,
+    "etiket": "uzman",
+    "beklenen_etiket": "uzman",
+    "risk_ok": true,
+    "risk": [
+      "CARPISMA"
+    ],
+    "atif_beklenen": 1,
+    "atif_bulunan": 1,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-02-01 – 2027-02-01) içinde.",
+      "[uygun] Teminat: CARPISMA: 'Çarpışma / sabit veya duran bir cisim ile çarpışma (GŞ A.1 a-b)' poliçenin teminat listesinde var.",
+      "[uygun] Yetkili sürücü: Poliçede sürücü kısıtı yok.",
+      "[sorun] İstisna: ehliyetsiz sürücü: İhbarda sürücü belgesi olmadığı işareti var: \"ehliyeti olmadığı\". Gerekli sürücü belgesi olmayan kişilerce kullanım teminat dışı hâller arasında."
+    ],
+    "gerekce": "Ön değerlendirmeye göre olay poliçe dönemi içinde gerçekleşmiş görünüyor ve aracın sürülürken bir duvara çarpması, çarpışma teminatının kapsamına girebilecek bir olay olarak değerlendirilebilir [GS_A.8_giris] [BK_optimum-paket-kapsaminda-sunulan-teminatlara-ait_1]. Ancak ihbarda sürücünün ehliyetinin bulunmadığı belirtildiğinden, Genel Şartlar'da gerekli sürücü belgesine sahip olmayan kişilerce kullanım sırasında oluşan zararların teminat dışı hâller arasında sayıldığı görülüyor ve bu nedenle konu uzman değerlendirmesi gerektiriyor [GS_A.5_5.4]. Hasar anında istenecek belgeler arasında kaza tutanağı, ehliyet fotokopisi ve alkol raporu bulunduğundan bu evrakların acenteden temin edilmesi uygun görünüyor [BK_hasar-aninda-gerekli-belgeler-1-kasko_1]. İhbarda oğlun olay yerinde beklediği ve polis tutanağı tutulduğu bildirildiği için kaza yerinden ayrılma hâli görünmüyor, ancak nihai değerlendirme uzmanındır [GS_A.5_5.10].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CARPISMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 3, 'sorun': 1, 'belirsiz': 0, 'bilgi': 0}, 0 soru → UZMAN İNCELEMESİ GEREKLİ",
+      "ara: 4 sorgu → 20 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 22.1
+  },
+  {
+    "id": "ayse_sel_surerken",
+    "etiket_ok": true,
+    "etiket": "ek_bilgi",
+    "beklenen_etiket": "ek_bilgi",
+    "risk_ok": true,
+    "risk": [
+      "SEL_SU_BASKINI"
+    ],
+    "atif_beklenen": 0,
+    "atif_bulunan": 0,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [
+      "Sürücünün olay anında alkol veya uyuşturucu madde etkisinde olup olmadığı biliniyor mu?",
+      "Sürücü, kaza tutanağı tutulmadan veya polis gelmeden olay yerinden ayrıldı mı?"
+    ],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-02-01 – 2027-02-01) içinde.",
+      "[uygun] Teminat: SEL_SU_BASKINI: 'Sel ve su baskını (GŞ A.4 4.5)' poliçenin teminat listesinde var.",
+      "[uygun] Yetkili sürücü: Poliçede sürücü kısıtı yok."
+    ],
+    "gerekce": "Bildirime göre sağanak sonrası alt geçitte biriken suya girilmesi sonucu araç durmuş ve motora su girmiş görünüyor. Poliçe dönemi olay tarihini kapsıyor ve sel ve su baskını teminatı poliçenin teminat listesinde yer alıyor; bu, hasarın tazmin edileceği anlamına gelmez, uzman değerlendirmesi gerekir. [GS_A.8_giris] [GS_A.4_4.5] Sel ve su baskını klozunda, aracın sel veya su baskını nedeniyle zarar görmesi durumunda sigorta bedelinin karşılanacağına dair hüküm yer alıyor ve muafiyet uygulanıp uygulanmayacağının taraflarca belirlenebileceği belirtiliyor. [BK_sel-ve-su-baskini-klozu_1] Bildirimde aracın olay anında sürüldüğü belirtildiğinden sürücüye ait belgeler de gerekli belgeler arasında değerlendirilebilir. [BK_hasar-aninda-gerekli-belgeler-1-kasko_1] Sürücünün alkol veya uyuşturucu etkisinde olup olmadığı ile olay yerinden ayrılıp ayrılmadığı acente tarafından teyit edilmeli; muafiyet koşulları için tutanak durumu da değerlendirilmelidir. [BK_muafiyet-secimi-ozel-sartlari_2]",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['SEL_SU_BASKINI'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 3, 'sorun': 0, 'belirsiz': 0, 'bilgi': 0}, 2 soru → EK BİLGİ GEREKLİ",
+      "ara: 4 sorgu → 18 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 16.0
+  },
+  {
+    "id": "ayse_carpip_kacma_tarihsiz",
+    "etiket_ok": true,
+    "etiket": "ek_bilgi",
+    "beklenen_etiket": "ek_bilgi",
+    "risk_ok": true,
+    "risk": [
+      "CARPISMA"
+    ],
+    "atif_beklenen": 0,
+    "atif_bulunan": 0,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [
+      "Olay hangi tarihte ve saat kaçta meydana geldi?",
+      "Olay polise/jandarmaya bildirildi mi veya kaza tespit tutanağı tutuldu mu?"
+    ],
+    "kontroller": [
+      "[belirsiz] Poliçe dönemi: Olay tarihi bilinmiyor; poliçe dönemi 2026-02-01 – 2027-02-01.",
+      "[uygun] Teminat: CARPISMA: 'Çarpışma / sabit veya duran bir cisim ile çarpışma (GŞ A.1 a-b)' poliçenin teminat listesinde var."
+    ],
+    "gerekce": "Bildirime göre park halindeki sigortalı araca üçüncü bir kişi çarpmış, ardından kaçmış ve arka kapı göçmüştür. Teminat listesinde çarpışma teminatı yer aldığı için olayın çarpışma teminatı kapsamında değerlendirilmesi gerektiği görünüyor; genel şartlar, durma halinde iken sigortalının iradesi dışında sabit veya hareketli bir cismin çarpmasını bu teminat içinde sayıyor görünüyor [GS_A.1_giris_1]. Olayın üçüncü kişinin haksız fiiliyle gerçekleştiği anlaşıldığından, tanık kimlik ve adres bilgilerinin bildirilmesi ile mümkünse görgü tutanağı sağlanması gerekebilir [GS_B.1_1.7]. Poliçe dönemi kontrolü belirsiz kaldı, çünkü olay tarihi bilinmiyor; sigorta başlama ve bitiş saatlerinin poliçede yazılan günlerde öğlen 12.00 esasına göre değerlendirilmesi gerekir [GS_A.8_giris]. Araç olay anında sürülmediği için sürücüye ait belgeler bu aşamada listelenmemiştir; nihai değerlendirme hasar uzmanının incelemesine bırakılmıştır.",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CARPISMA'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 1, 'sorun': 0, 'belirsiz': 1, 'bilgi': 0}, 2 soru → EK BİLGİ GEREKLİ",
+      "ara: 4 sorgu → 22 parça (dayanak +1, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 16.0
+  },
+  {
+    "id": "zeynep_cam",
+    "etiket_ok": true,
+    "etiket": "ek_bilgi",
+    "beklenen_etiket": "ek_bilgi",
+    "risk_ok": true,
+    "risk": [
+      "CAM"
+    ],
+    "atif_beklenen": 0,
+    "atif_bulunan": 0,
+    "atif_eksik": [],
+    "soru_ok": true,
+    "soru_eksik": [],
+    "soru_fazla": [],
+    "denetim_ok": true,
+    "tur": 1,
+    "denetim": [],
+    "sorular": [
+      "Sürücünün olay anında alkol veya uyuşturucu madde etkisinde olup olmadığı biliniyor mu?",
+      "Sürücü, kaza tutanağı tutulmadan veya polis gelmeden olay yerinden ayrıldı mı?"
+    ],
+    "kontroller": [
+      "[uygun] Poliçe dönemi: Olay tarihi 2026-11-06 poliçe dönemi (2026-05-15 – 2027-05-15) içinde.",
+      "[uygun] Teminat: CAM: 'Cam hasarı (Camkurtaran hizmeti)' poliçenin teminat listesinde var.",
+      "[uygun] Yetkili sürücü: Poliçede sürücü kısıtı yok.",
+      "[bilgi] Muafiyet: Poliçede 2.500 TL muafiyet var; hasar tutarından düşülür."
+    ],
+    "gerekce": "Bildirime göre sürülen araçta önündeki kamyondan sıçrayan taş nedeniyle ön cam çatlamıştır. Olay tarihinin poliçe dönemi içinde olduğu görünüyor [GS_A.8_giris]. Cam kırılması hasarlarının Genel Şartlar çerçevesinde teminat altına alındığı ifade ediliyor ve cam hasarı poliçenin teminat listesinde yer alıyor [BK_camkurtaran-hizmeti-anlasmali-serviste-logosuz-yerli_1]. Cam hasarlarının muafiyet uygulamasından hariç tutulacağı belirtilmekle birlikte, anlaşmalı servis dışındaki onarımlarda muafiyet uygulanacağı da ifade ediliyor; bu nedenle onarım yeri ve 2.500 TL muafiyetin etkisi uzman değerlendirmesi gerekir [BK_muafiyet-secimi-ozel-sartlari_2] [BK_muafiyetsiz-cam-asistans-hizmeti-cam-tum_1]. Olayın kaza tutanağı veya kolluk zaptı ile belgelenip belgelenmediği ile sürücünün alkol durumu ve olay yerinden ayrılma bilgisi acenteden netleştirilmelidir [BK_hasar-aninda-gerekli-belgeler-1-kasko_1].",
+    "dogrulama_notlari": [],
+    "iz": [
+      "olay_cikar: ['CAM'], 0 alıntı düzeltmesi",
+      "police_kontrol: {'uygun': 3, 'sorun': 0, 'belirsiz': 0, 'bilgi': 1}, 2 soru → EK BİLGİ GEREKLİ",
+      "ara: 4 sorgu → 12 parça (dayanak +2, evrak +2)",
+      "yaz: tur 1",
+      "denetle: GEÇTİ"
+    ],
+    "sure": 19.9
+  }
+]

@@ -1,0 +1,122 @@
+# Uçtan uca değerlendirme seti. İhbar tarihi (aksi yazılmadıkça) 2026-11-07.
+# "A|B" = ikisinden biri yeterli. sorulmali/sorulmamali: acente sorularında aranan anahtar kelimeler.
+
+- id: mehmet_sel_park
+  amac: Park hâlinde sel -> teminat var, muafiyet bilgisi, alkol/ehliyet SORULMAZ
+  police_no: RS-K-2026-000102
+  ihbar: Dün gece sağanak yağmurda araç sokakta park halindeydi, sabah baktığımda motor bölmesine kadar su dolmuştu.
+  beklenen: {etiket: kapsamda, risk: [SEL_SU_BASKINI], atif: [BUK_sel-ve-su-baskini-klozu_1|GS_A.4_4.5], sorulmamali: [alkol, ehliyet]}
+
+- id: mehmet_sel_tarihsiz
+  amac: Tarih yok -> ek bilgi; tarih sorulur, alkol sorulmaz
+  police_no: RS-K-2026-000102
+  ihbar: Sağanak yağmurda araç sokakta park halindeydi, sabah baktığımda motor bölmesine kadar su dolmuştu.
+  beklenen: {etiket: ek_bilgi, risk: [SEL_SU_BASKINI], sorulmali: [tarih], sorulmamali: [alkol]}
+
+- id: mehmet_deprem
+  amac: Dar kaskoda deprem yok -> kapsam dışı görünüyor
+  police_no: RS-K-2026-000102
+  ihbar: Dün sabahki depremde park halindeki aracımın üzerine bina duvarı çöktü.
+  beklenen: {etiket: kapsam_disi, risk: [DEPREM], atif: [GS_A.4_4.4]}
+
+- id: ayse_deprem
+  amac: Aynı olay, geniş poliçe -> kapsamda; BK deprem klozu
+  police_no: RS-K-2026-000101
+  ihbar: Dün sabahki depremde park halindeki aracımın üzerine bina duvarı çöktü.
+  beklenen: {etiket: kapsamda, risk: [DEPREM], atif: [BK_deprem-teminati-klozu_1|GS_A.4_4.4]}
+
+- id: mehmet_yangin
+  amac: Dar kaskoda yangın yok
+  police_no: RS-K-2026-000102
+  ihbar: Dün gece evin önünde park halindeki aracım motor kısmından tutuşup yandı, itfaiye geldi.
+  beklenen: {etiket: kapsam_disi, risk: [YANMA]}
+
+- id: zeynep_calinma
+  amac: Aynı ürün (BK) ama yalnız Temel Koruma -> çalınma yok
+  police_no: RS-K-2026-000103
+  ihbar: Dün gece evin önüne park ettiğim aracım çalındı, sabah yerinde yoktu. Karakola bildirdim.
+  beklenen: {etiket: kapsam_disi, risk: [CALINMA]}
+
+- id: ayse_anahtar
+  amac: Anahtarın ele geçirilmesiyle çalınma, polise bildirilmiş -> kapsamda
+  police_no: RS-K-2026-000101
+  ihbar: 3 Kasım'da kafede masada unuttuğum anahtarımı alıp otoparktaki aracımı çalmışlar. Aynı gün polise bildirdim.
+  beklenen: {etiket: kapsamda, risk: [ANAHTAR_ELE_GECIRILMESI|CALINMA], atif: [BK_arac-anahtarinin-ele-gecirilmesi-nedeniyle-aracin_1|BK_arac-anahtarinin-ele-gecirilmesi-nedeniyle-aracin_2|GS_A.4_4.11]}
+
+- id: ayse_kotu_niyet
+  amac: Park hâlinde çizme/ayna kırma, karakola bildirilmiş
+  police_no: RS-K-2026-000101
+  ihbar: Dün gece park halindeki aracımı birileri anahtarla çizmiş, yan aynasını da kırmışlar. Sabah karakola gidip bildirdim.
+  beklenen: {etiket: kapsamda, risk: [UCUNCU_KISI_KOTU_NIYET], atif: [BK_ucuncu-kisilerin-kotu-niyetli-hareketleri-teminati_1], sorulmamali: [alkol]}
+
+- id: burak_dolu
+  amac: Burak'ta doğal afet paketi yok
+  police_no: RS-K-2026-000106
+  ihbar: Dün öğleden sonra dolu yağdı, park halindeki aracımın kaputu ve tavanı göçük göçük oldu.
+  beklenen: {etiket: kapsam_disi, risk: [DIGER_DOGAL_AFET], sorulmamali: [kim kullanıyordu]}
+
+- id: ayse_dolu
+  amac: Aynı dolu, doğal afet paketi var
+  police_no: RS-K-2026-000101
+  ihbar: Dün öğleden sonra dolu yağdı, park halindeki aracımın kaputu ve tavanı göçük göçük oldu.
+  beklenen: {etiket: kapsamda, risk: [DIGER_DOGAL_AFET], atif: [BK_diger-dogal-afetler-klozu_1|GS_A.4_4.4]}
+
+- id: ali_lpg
+  amac: Çarpışma kapsamda ama LPG beyan edilmemiş -> orantılı tazminat, uzman
+  police_no: RS-K-2026-000104
+  ihbar: Dün akşam Bursa'da kırmızı ışıkta beklerken arkadan bir araç çarptı. Aracı ben kullanıyordum, alkol almamıştım, karşı tarafla kaza tespit tutanağı tuttuk ve olay yerinden ayrılmadık.
+  beklenen: {etiket: uzman, risk: [CARPISMA], atif: [BUK_lpg-ile-calisan-araclar-klozu_1]}
+
+- id: elif_suresi_dolmus
+  amac: Poliçe 15.10.2026'da bitmiş, olay 3 Kasım
+  police_no: RS-K-2025-000105
+  ihbar: 3 Kasım'da AVM otoparkından çıkarken direğe sürttüm, sağ çamurluk ezildi.
+  beklenen: {etiket: kapsam_disi, risk: [CARPISMA], atif: [GS_A.8_giris]}
+
+- id: elif_bitis_gunu
+  amac: Olay bitiş gününde -> öğle 12.00 kuralı, saat sorulur
+  police_no: RS-K-2025-000105
+  ihbar: 15 Ekim 2026 günü AVM otoparkından çıkarken direğe sürttüm, sağ çamurluk ezildi.
+  beklenen: {etiket: ek_bilgi, risk: [CARPISMA], atif: [GS_A.8_giris], sorulmali: [saat]}
+
+- id: burak_kardes
+  amac: Sürücü kısıtı ihlali; ehliyet de sorulmalı
+  police_no: RS-K-2026-000106
+  ihbar: Dün akşam Gebze'de kavşakta önümdeki araç ani fren yaptı, arkadan çarptık. Ön tampon ve far kırıldı. O sırada aracı kardeşim kullanıyordu, ben yanında oturuyordum.
+  beklenen: {etiket: uzman, risk: [CARPISMA], sorulmali: [yetkili sürücü, ehliyet]}
+
+- id: burak_esi
+  amac: Eşi kullanıyor -> sürücü uygun; kalan bilgiler tam
+  police_no: RS-K-2026-000106
+  ihbar: Dün akşam aracımı eşim kullanırken park ederken duvara sürttü, arka tampon çizildi. Eşimin ehliyeti var, alkol almamıştı, olay yerinden ayrılmadı ve karakola gidip tutanak tutturduk.
+  beklenen: {etiket: kapsamda, risk: [CARPISMA], sorulmamali: [yetkili sürücü]}
+
+- id: ayse_alkol_terk
+  amac: Alkol ve olay yerini terk -> iki istisna işareti
+  police_no: RS-K-2026-000101
+  ihbar: 7 Kasım gecesi arkadaşlarla içtikten sonra eve dönerken direğe çarptım. Kimse yoktu, polisi beklemeden eve gittim.
+  beklenen: {etiket: uzman, risk: [CARPISMA], atif: [GS_A.5_5.5, GS_A.5_5.10], sorulmali: [zorunlu]}
+
+- id: ayse_ehliyetsiz
+  amac: Ehliyetsiz sürücü (oğlu) -> A.5/5.4
+  police_no: RS-K-2026-000101
+  ihbar: Dün oğlum ehliyeti olmadığı halde aracı alıp çıkmış ve bir duvara çarpmış. Alkol yoktu, olay yerinde bekledi, polis gelip tutanak tuttu.
+  beklenen: {etiket: uzman, risk: [CARPISMA], atif: [GS_A.5_5.4]}
+
+- id: ayse_sel_surerken
+  amac: Sel ama araç SÜRÜLÜYOR -> sürüşle ilgili sorular bu kez sorulur
+  police_no: RS-K-2026-000101
+  ihbar: Dün sağanakta alt geçitte su birikmişti, içinden geçmeye çalışırken araç stop etti ve motora su girdi. Aracı ben kullanıyordum.
+  beklenen: {etiket: ek_bilgi, risk: [SEL_SU_BASKINI], sorulmali: [alkol]}
+
+- id: ayse_carpip_kacma_tarihsiz
+  amac: Park hâlinde çarpılmış, tarih belirsiz -> tarih sorulur, alkol sorulmaz
+  police_no: RS-K-2026-000101
+  ihbar: Geçenlerde park halindeyken birisi aracıma çarpıp kaçmış, arka kapı göçmüş.
+  beklenen: {etiket: ek_bilgi, risk: [CARPISMA|UCUNCU_KISI_KOTU_NIYET], sorulmali: [tarih], sorulmamali: [alkol]}
+
+- id: zeynep_cam
+  amac: Cam teminatı var; sürüş sırasında olduğu için sürüş soruları
+  police_no: RS-K-2026-000103
+  ihbar: Dün otoyolda giderken önümdeki kamyondan taş sıçradı, ön cam çatladı. Aracı ben kullanıyordum.
+  beklenen: {etiket: ek_bilgi, risk: [CAM]}
